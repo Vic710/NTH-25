@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
     <ToastUtils />
     <AuthProvider>
       <Navbar />
-      <div className="h-full relative overflow-y-scroll">
+      <div className="h-full relative overflow-y-auto">
         {children}
       </div>
       <Footer />
