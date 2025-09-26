@@ -20,6 +20,7 @@ const QuestionSetters = () => {
         linkedin: 'https://www.linkedin.com/in/aabha-jog-68aa162b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         instagram: 'https://www.instagram.com/aabhaj25/',
         github: 'https://github.com/aabha25',
+        phone: 9146394264,
       },
       {
         name: "Karan Mittal",
@@ -36,6 +37,7 @@ const QuestionSetters = () => {
         linkedin: 'https://www.linkedin.com/in/karan-mittal-59a41a23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         instagram: 'https://www.instagram.com/karanmittal7303/',
         github: 'https://github.com/karan-mittal06',
+        phone: 8718980100,
       },
       {
         name: "Rashmi Abhyankar",
@@ -52,6 +54,7 @@ const QuestionSetters = () => {
         linkedin: 'https://www.linkedin.com/in/rashmiabhyankar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         instagram: 'https://www.instagram.com/_nidhi1214/',
         github: 'https://github.com/ Rashmi-05',
+        phone: 9689613178,
       },
       {
         name: "Shlok Sangamnerkar",
@@ -68,6 +71,7 @@ const QuestionSetters = () => {
         linkedin: ' https://www.linkedin.com/in/shlok-sangamnerkar/',
         instagram: 'https://www.instagram.com/shlok__vic/',
         github: 'https://github.com/Vic710',
+        phone: 9579815842,
       },
       {
         name: "Anushree Kamath",
@@ -84,6 +88,7 @@ const QuestionSetters = () => {
         linkedin: 'https://www.linkedin.com/in/anushreekamath04/',
         instagram: 'https://www.instagram.com/kamathanushree/',
         github: 'https://github.com/siriuslycoding ',
+        phone: 8484022348,
       },
 ]
 
