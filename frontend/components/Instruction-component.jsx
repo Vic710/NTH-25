@@ -148,6 +148,13 @@ const Instruction = () => {
                     change in our decision. Furthermore, users should play
                     with one account only.
                 </li>
+                <li>
+                  Moderators will be online on @nth__live Instagram handle 
+                  for the complete 24 hours to solve your doubts on DM 
+                </li>
+                <li>
+                  Runtime hints may be added as required so refresh regularly
+                </li>
             </ol>
             <Link href={'/question/put_your_answer_here'}>
               <div className="my-4 w-full flex justify-center">
