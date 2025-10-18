@@ -351,8 +351,7 @@ const QuestionPage = ({params})=>{
       <CustomModal isOpen={isContactModalOpen} onClose={closeContactModal}>
         <h2 className="text-2xl font-semibold mb-4 text-black self-center">Contacts</h2>
        
-        <p className="text-lg">B Shrinidhi : 7506211747</p>
-        <p className="text-lg"> Samir Wankhede : 7770011526</p>
+        <p className="text-lg">@nth__live on Instagram</p>
         <div className="flex justify-between items-center gap-5 mt-6">
          
         </div>
