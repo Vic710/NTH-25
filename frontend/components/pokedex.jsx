@@ -6,257 +6,57 @@ import { GrCaretNext, GrCaretPrevious } from "react-icons/gr";
 import Loader from "./Loader";
 
 export default function Pokedex() {
-    const [leaderboardData, setLeaderboardData] = useState([
-      {
-          "id": 150,
-          "username": "deathAndTaxes",
-          "curr_level": 16
-      },
-      {
-          "id": 58,
-          "username": "BenDovah",
-          "curr_level": 16
-      },
-      {
-          "id": 197,
-          "username": "MoeLester",
-          "curr_level": 16
-      },
-      {
-          "id": 330,
-          "username": "Csan",
-          "curr_level": 11
-      },
-      {
-          "id": 231,
-          "username": "farthestmage",
-          "curr_level": 11
-      },
-      {
-          "id": 959,
-          "username": "sandeep",
-          "curr_level": 11
-      },
-      {
-          "id": 267,
-          "username": "Bhupesh",
-          "curr_level": 10
-      },
-      {
-          "id": 68,
-          "username": "amadeus",
-          "curr_level": 10
-      },
-      {
-          "id": 105,
-          "username": "norab43",
-          "curr_level": 10
-      },
-      {
-          "id": 71,
-          "username": "asp21k",
-          "curr_level": 10
-      },
-      {
-          "id": 77,
-          "username": "cress",
-          "curr_level": 10
-      },
-      {
-          "id": 1019,
-          "username": "pixieeenew",
-          "curr_level": 10
-      },
-      {
-          "id": 127,
-          "username": "Hadrian",
-          "curr_level": 10
-      },
-      {
-          "id": 290,
-          "username": "bhavesh",
-          "curr_level": 10
-      },
-      {
-          "id": 260,
-          "username": "Ashbeast",
-          "curr_level": 10
-      },
-      {
-          "id": 250,
-          "username": "INDUMATI69",
-          "curr_level": 10
-      },
-      {
-          "id": 214,
-          "username": "SahilPatil10",
-          "curr_level": 10
-      },
-      {
-          "id": 323,
-          "username": "13teen",
-          "curr_level": 10
-      },
-      {
-          "id": 192,
-          "username": "AishikaB",
-          "curr_level": 10
-      },
-      {
-          "id": 1011,
-          "username": "arpan",
-          "curr_level": 9
-      },
-      {
-          "id": 268,
-          "username": "amwat",
-          "curr_level": 8
-      },
-      {
-          "id": 329,
-          "username": "sleeping",
-          "curr_level": 8
-      },
-      {
-          "id": 979,
-          "username": "IconicDemon",
-          "curr_level": 8
-      },
-      {
-          "id": 199,
-          "username": "Prathamn00b",
-          "curr_level": 8
-      },
-      {
-          "id": 978,
-          "username": "NTHsucks",
-          "curr_level": 8
-      },
-      {
-          "id": 3,
-          "username": "Vic710",
-          "curr_level": 8
-      },
-      {
-          "id": 33,
-          "username": "Johaan",
-          "curr_level": 8
-      },
-      {
-          "id": 17,
-          "username": "Tanishka",
-          "curr_level": 8
-      },
-      {
-          "id": 70,
-          "username": "Aayusha",
-          "curr_level": 8
-      },
-      {
-          "id": 4,
-          "username": "Karan100",
-          "curr_level": 8
-      },
-      {
-          "id": 212,
-          "username": "RRN",
-          "curr_level": 8
-      },
-      {
-          "id": 213,
-          "username": "Tripti",
-          "curr_level": 8
-      },
-      {
-          "id": 14,
-          "username": "ParthKer09",
-          "curr_level": 8
-      },
-      {
-          "id": 1005,
-          "username": "TOPg",
-          "curr_level": 8
-      },
-      {
-          "id": 545,
-          "username": "sanketOP",
-          "curr_level": 8
-      },
-      {
-          "id": 141,
-          "username": "Coolspy",
-          "curr_level": 8
-      },
-      {
-          "id": 256,
-          "username": "SAI1910",
-          "curr_level": 8
-      },
-      {
-          "id": 1004,
-          "username": "chhote8",
-          "curr_level": 8
-      },
-      {
-          "id": 1003,
-          "username": "molestrr",
-          "curr_level": 8
-      },
-      {
-          "id": 241,
-          "username": "Ospravin2006",
-          "curr_level": 8
-      },
-      {
-          "id": 92,
-          "username": "pikapika",
-          "curr_level": 8
-      },
-      {
-          "id": 1006,
-          "username": "Tejas",
-          "curr_level": 8
-      },
-      {
-          "id": 270,
-          "username": "spidey",
-          "curr_level": 8
-      },
-      {
-          "id": 183,
-          "username": "Crimson",
-          "curr_level": 8
-      },
-      {
-          "id": 25,
-          "username": "YouKnowWho",
-          "curr_level": 8
-      },
-      {
-          "id": 953,
-          "username": "Kanan",
-          "curr_level": 8
-      },
-      {
-          "id": 40,
-          "username": "trishit",
-          "curr_level": 8
-      },
-      {
-          "id": 280,
-          "username": "TheREAPER",
-          "curr_level": 8
-      },
-      {
-          "id": 1012,
-          "username": "AaryaKan6",
-          "curr_level": 8
-      },
-      {
-          "id": 1009,
-          "username": "luckyag28",
-          "curr_level": 8
-      }
+  const [leaderboardData, setLeaderboardData] = useState([
+    { id: 71, username: "nallelog", curr_level: 25 },
+    { id: 67, username: "Hadrian", curr_level: 19 },
+    { id: 68, username: "TunTunMausa69", curr_level: 19 },
+    { id: 333, username: "Csan", curr_level: 19 },
+    { id: 312, username: "asp21k", curr_level: 15 },
+    { id: 48, username: "BenDovah", curr_level: 15 },
+    { id: 370, username: "darkKnight", curr_level: 15 },
+    { id: 3, username: "MoeLester", curr_level: 15 },
+    { id: 386, username: "norab43", curr_level: 15 },
+    { id: 427, username: "furball", curr_level: 13 },
+    { id: 167, username: "testingNTH", curr_level: 12 },
+    { id: 320, username: "ScoobyDoox", curr_level: 12 },
+    { id: 97, username: "Nisarga", curr_level: 12 },
+    { id: 424, username: "nowphotographer", curr_level: 11 },
+    { id: 165, username: "Kira01", curr_level: 11 },
+    { id: 178, username: "Aadit", curr_level: 11 },
+    { id: 379, username: "alphycs", curr_level: 11 },
+    { id: 319, username: "danicantony", curr_level: 11 },
+    { id: 51, username: "arul9228", curr_level: 10 },
+    { id: 463, username: "Laku", curr_level: 10 },
+    { id: 232, username: "Ayushman", curr_level: 10 },
+    { id: 415, username: "Pitu", curr_level: 10 },
+    { id: 162, username: "Poorvapatil", curr_level: 10 },
+    { id: 60, username: "Suy123", curr_level: 10 },
+    { id: 87, username: "Priyanisonawane", curr_level: 10 },
+    { id: 83, username: "Barbie", curr_level: 10 },
+    { id: 278, username: "bunnyluzy", curr_level: 10 },
+    { id: 56, username: "payalmane21", curr_level: 10 },
+    { id: 467, username: "trishit", curr_level: 10 },
+    { id: 120, username: "Gemini07", curr_level: 10 },
+    { id: 374, username: "Ishita", curr_level: 10 },
+    { id: 375, username: "sandshrew", curr_level: 10 },
+    { id: 414, username: "rohank2409", curr_level: 10 },
+    { id: 258, username: "purvaa", curr_level: 10 },
+    { id: 235, username: "warrior11", curr_level: 10 },
+    { id: 155, username: "darkcircle", curr_level: 10 },
+    { id: 468, username: "samkisha2025", curr_level: 10 },
+    { id: 346, username: "astroapoo", curr_level: 10 },
+    { id: 286, username: "tusharxd", curr_level: 10 },
+    { id: 266, username: "Karthikreddy", curr_level: 10 },
+    { id: 128, username: "Riddhi98906pict", curr_level: 10 },
+    { id: 387, username: "Nikita03", curr_level: 10 },
+    { id: 28, username: "PrachiGC", curr_level: 10 },
+    { id: 270, username: "harshgupta108", curr_level: 10 },
+    { id: 211, username: "dubedeep03", curr_level: 10 },
+    { id: 325, username: "RISHiWALOKAR95", curr_level: 10 },
+    { id: 134, username: "guruprasad08", curr_level: 10 },
+    { id: 284, username: "Revant", curr_level: 10 },
+    { id: 161, username: "StrawHats1469", curr_level: 10 },
+    { id: 104, username: "Vedant1442", curr_level: 10 }
   ]);
     const [loading, setLoading] = useState(true);
     const [currentPage, setCurrentPage] = useState(1); 
