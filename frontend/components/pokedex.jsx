@@ -8,14 +8,14 @@ import Loader from "./Loader";
 export default function Pokedex() {
   const [leaderboardData, setLeaderboardData] = useState([
     { id: 71, username: "nallelog", curr_level: 25 },
-    { id: 67, username: "Hadrian", curr_level: 19 },
-    { id: 68, username: "TunTunMausa69", curr_level: 19 },
     { id: 333, username: "Csan", curr_level: 19 },
+    { id: 68, username: "TunTunMausa69", curr_level: 19 },
+    { id: 67, username: "Hadrian", curr_level: 19 },
     { id: 312, username: "asp21k", curr_level: 15 },
     { id: 48, username: "BenDovah", curr_level: 15 },
     { id: 370, username: "darkKnight", curr_level: 15 },
-    { id: 3, username: "MoeLester", curr_level: 15 },
     { id: 386, username: "norab43", curr_level: 15 },
+    { id: 3, username: "MoeLester", curr_level: 15 },
     { id: 427, username: "furball", curr_level: 13 },
     { id: 167, username: "testingNTH", curr_level: 12 },
     { id: 320, username: "ScoobyDoox", curr_level: 12 },
